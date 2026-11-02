@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react';
 const apiPort = process.env.PORT || '3000';
 
 export default defineConfig({
+  base: '/AMAANTRADERS/',
   plugins: [react()],
   server: {
     port: 5173,
