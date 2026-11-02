@@ -3,12 +3,13 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Heart, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Product } from '../types';
+import jacketPlaceholder from '../assets/jacket-placeholder.svg';
 import { money } from '../lib/format';
 import { useStore } from '../context/StoreContext';
 export default function ProductCard({product,index=0,onQuickView}:{product:Product;index?:number;onQuickView?:(product:Product)=>void}){
  const {toggleWishlist,isWishlisted,addToCart}=useStore();const [image,setImage]=useState(0);const hero=product.images?.[0]||product.image;const second=product.images?.[1];const saved=isWishlisted(product.id);
  return <motion.article className="product-card" initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.08}} transition={{duration:.55,delay:Math.min(index*.045,.22)}}>
-  <div className="product-card-media"><Link to={`/product/${product.slug}`} className="product-image-link"><img src={image===0?hero:(second||hero)} alt={product.name} loading="lazy" onError={e=>{(e.currentTarget as HTMLImageElement).src='/assets/jacket-placeholder.svg';}}/><span className="image-index">0{image+1} / 0{second?2:1}</span></Link>
+  <div className="product-card-media"><Link to={`/product/${product.slug}`} className="product-image-link"><img src={image===0?hero:(second||hero)} alt={product.name} loading="lazy" onError={e=>{(e.currentTarget as HTMLImageElement).src=jacketPlaceholder;}}/><span className="image-index">0{image+1} / 0{second?2:1}</span></Link>
    {product.badge&&<span className="product-badge">{product.badge}</span>}
    <button className={`wishlist-btn ${saved?'is-saved':''}`} onClick={()=>toggleWishlist(product.id)} aria-label={saved?'Remove from wishlist':'Add to wishlist'}><Heart size={17} fill={saved?'currentColor':'none'}/></button>
    <div className="card-hover-actions"><button onClick={()=>onQuickView?.(product)}>Quick view <ArrowUpRight size={15}/></button><button aria-label="Add to bag" onClick={()=>addToCart({id:product.id,size:product.sizes?.[0]||'M',color:product.colors?.[0]||'Black',quantity:1})}><Plus size={17}/></button></div>
