@@ -1,0 +1,30 @@
+AMAANTRADERS — KALI LINUX SETUP
+
+1) Project folder kholo:
+   cd /home/ayaan/web
+
+2) Dependencies install karo:
+   npm install
+
+3) Development mode (API + Vite dono start):
+   npm run dev
+   Browser: http://127.0.0.1:5173
+   Agar port 3000 busy ho: PORT=3004 npm run dev
+
+4) Production-style local run:
+   npm run check
+   npm run security-check
+   npm run build
+   PORT=3004 npm start
+   Browser: http://127.0.0.1:3004
+
+5) Notifications / Razorpay:
+   cp .env.example .env
+   nano .env
+   Credentials sirf server-side .env mein rakho. React files, Git ya browser storage mein API secrets mat daalo. .env change karne ke baad server restart karo.
+
+6) Demo:
+   Login page par Customer preview aur Admin preview buttons available hain. Admin preview browser-local hai, production security nahi. Passwords browser storage mein save nahi hote.
+
+7) Stop server:
+   CTRL + C

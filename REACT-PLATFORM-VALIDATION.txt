@@ -1,0 +1,25 @@
+AMAANTRADERS REACT PLATFORM — VALIDATION NOTES
+
+Passed in the build workspace:
+- Node syntax checks: server.js and security-check.js
+- Existing backend security regression suite: all 9 checks passed
+- TypeScript/TSX transpile parse: 26 files, zero syntax diagnostics
+- Relative source imports checked against TS/TSX/JS/JSX/JSON/CSS files
+- React Router SPA fallback exercised through the Node static server
+
+Not completed in this build workspace:
+- npm install could not complete because package-registry access timed out.
+- Therefore `npm run build` / the final Vite production bundle has NOT been run here.
+
+On Kali Linux with internet access:
+  cd /home/ayaan/web
+  npm install
+  npm run check
+  npm run security-check
+  npm run dev
+
+For production-style local serving:
+  npm run build
+  PORT=3004 npm start
+
+Open http://127.0.0.1:5173 in development or http://127.0.0.1:3004 after building.

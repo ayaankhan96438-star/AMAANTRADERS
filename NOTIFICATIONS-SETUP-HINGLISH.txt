@@ -1,0 +1,40 @@
+AMAANTRADER — NAYE FEATURES (HINGLISH)
+
+1) CHECKOUT PIN LOOKUP
+Checkout mein PIN code ke paas FIND PIN button hai. 6 digit Indian PIN daalo; city/district aur state auto-fill honge. House no., street aur locality customer khud likhega. PIN se exact GPS/street location nahi milti.
+
+2) SLIM MARQUEE
+"WHERE FASHION FOLLOWS..." wali strip ka font, padding aur spacing chhota kiya gaya hai.
+
+3) STORE NOTIFICATIONS
+Order request, payment success/failure, cancellation request, refund request aur refund processed events ke liye email/WhatsApp alerts ka backend add kiya gaya hai. Alerts tabhi deliver honge jab .env mein provider account/API settings configure hongi.
+
+SETUP:
+- Project folder mein (sirf jab .env pehle se nahi hai): test -f .env || cp .env.example .env
+- .env ko local editor se khol kar email/WhatsApp credentials bharna. Access token/secret kisi ko share mat karna.
+- WhatsApp Cloud API ke liye Meta-approved store_alert template chahiye jisme body mein ek {{1}} placeholder ho.
+- Razorpay credentials blank hone par website sirf order request save karegi; payment collect nahi karegi. Real payments ke liye Razorpay test/live keys + public HTTPS webhook URL + webhook secret configure karna zaroori hai.
+- Customer cancellation/refund form request bhejta hai. Store ko request review karke provider/dashboard mein action lena hoga; refund processed tabhi mark hota hai jab signed gateway webhook milta hai.
+
+RUN:
+npm run check
+npm run security-check
+PORT=3004 npm start
+Browser: http://127.0.0.1:3004
+
+
+IMPORTANT DIFFERENCE:
+- `.env` ka WHATSAPP_TO = tumhara private owner number jahan order alerts aayenge.
+- `site-config.js` ka whatsappNumber = public customer-care number jo website ke WhatsApp buttons par dikhega. Country code ke saath digits only (India example: 91XXXXXXXXXX).
+- `site-config.js` ka supportEmail = public customer support email. Is file mein API token, Razorpay secret ya Meta access token KABHI mat daalna.
+
+MULTI-PAGE SITE:
+Home: /
+Shop catalogue: /shop/
+Product detail: /product/<slug>/
+Lookbook: /lookbook/
+Our Story: /about/
+Contact: /contact/
+Order cancellation/refund request: /order-support/
+Size guide: /size-guide/
+Store policies: /policies.html

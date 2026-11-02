@@ -1,0 +1,1275 @@
+[
+  {
+    "id": 1,
+    "slug": "atlas-leather-biker",
+    "name": "Atlas Biker Jacket",
+    "category": "Biker",
+    "price": 700,
+    "badge": "SIGNATURE STYLE",
+    "colors": [
+      "Black",
+      "Brown"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm shell and lining composition with the supplier",
+    "care": "Follow the garment label and supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A clean-lined biker-inspired jacket for everyday city styling. Product details and materials must be confirmed before launch.",
+    "image": "https://images.unsplash.com/photo-1727515192207-3dc860bfd773?auto=format&fit=crop&w=1000&q=85",
+    "images": [
+      "https://images.unsplash.com/photo-1727515192207-3dc860bfd773?auto=format&fit=crop&w=1000&q=85",
+      "https://allstoneleather.com/cdn/shop/files/Drex_Waxed_Brown_Classic_Leather_Jacket_Thumbnail.jpg?v=1756301453&width=1500"
+    ],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1727515192207-3dc860bfd773?auto=format&fit=crop&w=1000&q=85",
+      "Brown": "https://i.etsystatic.com/64432224/r/il/3708e9/7733667571/il_1080xN.7733667571_tazv.jpg"
+    },
+    "related": [
+      "evergreen-bomber",
+      "heritage-varsity",
+      "raw-indigo-denim"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 700,
+      "M": 800,
+      "L": 900,
+      "XL": 1000,
+      "XXL": 1150
+    },
+    "galleryViews": [
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_18AM_bda6d5e5-dc76-484e-a18a-0f95730cbfbc.png?v=1781521723&width=1600",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_12AM.png?v=1781521731&width=1600",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_15AM.png?v=1781521823&width=1600",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Inspect the leather or faux-leather finish, seam alignment, lining and zipper hardware on a physical sample. The exact material grade has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 2,
+    "slug": "evergreen-bomber",
+    "name": "Evergreen Bomber",
+    "category": "Bomber",
+    "price": 750,
+    "badge": "NEW EDIT",
+    "colors": [
+      "Olive",
+      "Black",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm shell and lining composition with the supplier",
+    "care": "Follow the garment label and supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "An everyday bomber silhouette that pairs easily with casual outfits. Confirm all product claims with the seller.",
+    "image": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+    "images": [
+      "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+      "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920"
+    ],
+    "colorImages": {
+      "Olive": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+      "Black": "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920",
+      "Navy": "https://image.hm.com/assets/hm/72/13/7213bf308f47fac6e586d5aa331581601fa854a3.jpg?imwidth=2160"
+    },
+    "related": [
+      "minimal-black-bomber",
+      "field-utility-jacket",
+      "trail-windbreaker"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 750,
+      "M": 850,
+      "L": 950,
+      "XL": 1050,
+      "XXL": 1200
+    },
+    "galleryViews": [
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_02_Front.jpg?v=1762939816&width=1200",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_05_Side.jpg?v=1762939816&width=1200",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_03_Back.jpg?v=1762939816&width=1200",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check shell finish, ribbed cuffs/hem, lining, pocket stitching and zipper on a physical sample. The exact fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 3,
+    "slug": "heritage-varsity",
+    "name": "Heritage Varsity Jacket",
+    "category": "Varsity",
+    "price": 800,
+    "badge": "POPULAR STYLE",
+    "colors": [
+      "Navy",
+      "Cream",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm shell, lining and trim composition",
+    "care": "Follow the garment label and supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A sports-inspired varsity layer for relaxed everyday outfits. Product photo and specification must be checked before launch.",
+    "image": "https://leatherjacketwear.com/cdn/shop/files/Mens-Navy-Blue-Varsity-Jacket-Front.webp?v=1705040151",
+    "images": [
+      "https://leatherjacketwear.com/cdn/shop/files/Mens-Navy-Blue-Varsity-Jacket-Front.webp?v=1705040151",
+      "https://barbershop.co.kr/web/product/big/202301/abf6f284ddab91fa5a6ede5b7944d3bb.jpg"
+    ],
+    "colorImages": {
+      "Navy": "https://leatherjacketwear.com/cdn/shop/files/Mens-Navy-Blue-Varsity-Jacket-Front.webp?v=1705040151",
+      "Cream": "https://shop.simon.com/cdn/shop/files/4b758173cfbd4727903aae770bed5e5b_1080x.jpg?v=1758664159",
+      "Black": "https://barbershop.co.kr/web/product/big/202301/abf6f284ddab91fa5a6ede5b7944d3bb.jpg"
+    },
+    "related": [
+      "monochrome-varsity",
+      "raw-indigo-denim",
+      "atlas-leather-biker"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 800,
+      "M": 900,
+      "L": 1000,
+      "XL": 1100,
+      "XXL": 1250
+    },
+    "galleryViews": [
+      {
+        "src": "https://leatherjacketwear.com/cdn/shop/files/Mens-Navy-Blue-Varsity-Jacket-Front.webp?v=1705040151",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://c.imgz.jp/648/8591648/8591648B_b_06_500.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.clothbase.com/uploads/fdf726b3-4dff-47e8-9477-cf8e965a0178/P00730244_d1.jpg",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check rib-knit cuffs, collar, sleeve joins, snap/button closure and lining on a physical sample. The actual shell and sleeve materials have not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 4,
+    "slug": "midnight-puffer",
+    "name": "Midnight Puffer Jacket",
+    "category": "Puffer",
+    "price": 850,
+    "badge": "WINTER EDIT",
+    "colors": [
+      "Black",
+      "Navy",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm shell, fill and lining composition",
+    "care": "Confirm washing and drying instructions with the supplier",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A winter-inspired puffer silhouette for layering. Confirm warmth and insulation claims before publishing.",
+    "image": "https://nosauce.store/cdn/shop/files/No_Sauce_Product_Pictures-549.png?v=1776727924&width=1445",
+    "images": [
+      "https://nosauce.store/cdn/shop/files/No_Sauce_Product_Pictures-549.png?v=1776727924&width=1445",
+      "https://images.teemill.com/iwxtnvx7qm79i0hc5dml24xsbi3btbowieimzvin7ocetsx0.png.png?h=auto&w=1080"
+    ],
+    "colorImages": {
+      "Black": "https://nosauce.store/cdn/shop/files/No_Sauce_Product_Pictures-549.png?v=1776727924&width=1445",
+      "Navy": "https://a.allegroimg.com/original/11d635/c4f8b39541eda07842057cc6dcae/Pikowana-kurtka-meska-puffer-z-kapturem-granatowa-V4-OM-JAHP-0235-r-L",
+      "Olive": "https://8f08a8-ss.akinoncloudcdn.com/products/2024/11/01/42022486/7e103e5f-e187-48a9-ae8b-638d9fb0eb0b_size3840_cropCenter.jpg"
+    },
+    "related": [
+      "cloud-quilted-jacket",
+      "urban-puffer-vest",
+      "trail-windbreaker"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 850,
+      "M": 950,
+      "L": 1050,
+      "XL": 1150,
+      "XXL": 1300
+    },
+    "galleryViews": [
+      {
+        "src": "https://nosauce.store/cdn/shop/files/No_Sauce_Product_Pictures-549.png?v=1776727924&width=1445",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.n-sport.net/UserFiles/products/big/11/28/muska-jakna-staff-tyler-man-puffer-jacket-66-008.52-90-2.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://down-br.img.susercontent.com/file/br-11134207-820lv-mlnzrncy9hqdd8",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check quilting consistency, fill distribution, zipper, lining and seam strength on a physical sample. Warmth and insulation performance have not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 5,
+    "slug": "raw-indigo-denim",
+    "name": "Raw Indigo Denim Jacket",
+    "category": "Denim",
+    "price": 900,
+    "badge": "DENIM EDIT",
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm denim composition and garment weight",
+    "care": "Confirm colour-care instructions with the supplier",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A versatile denim-inspired layer for casual outfits. Confirm the exact denim wash and garment composition.",
+    "image": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+    "images": [
+      "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768"
+    ],
+    "colorImages": {
+      "Blue": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+      "Black": "https://sportano.pl/img/986c30c27a3d26a3ee16c136f92f4ff5/5/9/5907494508690_20-jpg/kurtka-meska-prosto-civil-washed-black-0.jpg"
+    },
+    "related": [
+      "washed-denim-jacket",
+      "stone-check-shacket",
+      "heritage-varsity"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "explodedView": "assets/denim-jacket-exploded-view.png",
+    "sizePrices": {
+      "S": 900,
+      "M": 1000,
+      "L": 1100,
+      "XL": 1200,
+      "XXL": 1350
+    },
+    "galleryViews": [
+      {
+        "src": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.shop-list.com/res/up/shoplist/shp/__thum370__/geneless/geneless/cabinet/shouhin01/07line/sts_02/07-0019-204.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://rodeo-japan-pine-avenue.com/cdn/shop/files/sc15650h-18_1200x1200.jpg?v=1727429525",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check denim weight, button attachment, seam strength and colour transfer on a physical sample. Fabric composition and wash durability have not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 6,
+    "slug": "stone-check-shacket",
+    "name": "Stone Check Shacket",
+    "category": "Shacket",
+    "price": 950,
+    "badge": "EASY LAYER",
+    "colors": [
+      "Cream",
+      "Brown",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use care instructions approved for the actual garment",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A shirt-jacket inspired layer for transitional outfits. Confirm the pattern, fabric and construction before launch.",
+    "image": "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000",
+    "images": [
+      "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000"
+    ],
+    "colorImages": {
+      "Cream": "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000",
+      "Brown": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+      "Grey": "https://sc3.locondo.jp/contents/commodity_image/HM/HM5914EM006668_8_l.jpg"
+    },
+    "related": [
+      "cocoa-overshirt",
+      "raw-indigo-denim",
+      "field-utility-jacket"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 950,
+      "M": 1050,
+      "L": 1150,
+      "XL": 1250,
+      "XXL": 1400
+    },
+    "galleryViews": [
+      {
+        "src": "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://sc3.locondo.jp/contents/commodity_image/HM/HM5914EM006668_8_l.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check fabric hand-feel, button attachment, collar shape and seam finishing on a physical sample. Fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 7,
+    "slug": "field-utility-jacket",
+    "name": "Field Utility Jacket",
+    "category": "Utility",
+    "price": 1000,
+    "badge": "UTILITY EDIT",
+    "colors": [
+      "Olive",
+      "Sand",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A utility-inspired outer layer with a practical, everyday look. Confirm product details with the seller.",
+    "image": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+    "images": [
+      "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+      "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000"
+    ],
+    "colorImages": {
+      "Olive": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+      "Sand": "https://www.careofcarl.dk/bilder/artiklar/600x600_grey_4_5/24643411r.jpg",
+      "Black": "https://www.militarykit.com/cdn/shop/files/front-view-of-black-nyco-sateen-helikon-m65-field-jacket.jpg?v=1725620853&width=1125"
+    },
+    "related": [
+      "trail-windbreaker",
+      "evergreen-bomber",
+      "sable-harrington"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 1000,
+      "M": 1100,
+      "L": 1200,
+      "XL": 1300,
+      "XXL": 1450
+    },
+    "galleryViews": [
+      {
+        "src": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.careofcarl.dk/bilder/artiklar/600x600_grey_4_5/24643411r.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://image.rakuten.co.jp/auc-arcade/cabinet/07507444/acdct2464977-6.jpg",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check pocket stitching, closure strength, seam finishing and fabric weight on a physical sample. Technical performance has not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 8,
+    "slug": "velocity-racer",
+    "name": "Velocity Racer Jacket",
+    "category": "Racer",
+    "price": 1050,
+    "badge": "STATEMENT STYLE",
+    "colors": [
+      "Black",
+      "Blue",
+      "Burgundy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Slim fit",
+    "fabric": "Confirm shell and lining composition",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A streamlined racer-inspired layer for bold casual outfits. Confirm material and product photographs before publishing.",
+    "image": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_18AM_bda6d5e5-dc76-484e-a18a-0f95730cbfbc.png?v=1781521723&width=1600",
+    "images": [
+      "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_18AM_bda6d5e5-dc76-484e-a18a-0f95730cbfbc.png?v=1781521723&width=1600",
+      "https://allstoneleather.com/cdn/shop/files/Drex_Waxed_Brown_Classic_Leather_Jacket_Thumbnail.jpg?v=1756301453&width=1500"
+    ],
+    "colorImages": {
+      "Black": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_18AM_bda6d5e5-dc76-484e-a18a-0f95730cbfbc.png?v=1781521723&width=1600",
+      "Blue": "https://www.bricklaneleather.com/cdn/shop/files/Men_sClassicBrandoBikerLeatherJacket-Blue-Front.png?v=1752964879&width=1200",
+      "Burgundy": "https://www.fjackets.ca/cdn/shop/files/men_maroon_waxed_leather_jacket__60198_zoom.webp?v=1765778598&width=1000"
+    },
+    "related": [
+      "atlas-leather-biker",
+      "minimal-black-bomber",
+      "monochrome-varsity"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 1050,
+      "M": 1150,
+      "L": 1250,
+      "XL": 1350,
+      "XXL": 1500
+    },
+    "galleryViews": [
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_18AM_bda6d5e5-dc76-484e-a18a-0f95730cbfbc.png?v=1781521723&width=1600",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_12AM.png?v=1781521731&width=1600",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.fullgrainapparel.com/cdn/shop/files/ChatGPTImageJun8_2026_03_49_15AM.png?v=1781521823&width=1600",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Inspect the shell finish, collar shape, seam alignment, lining and zipper hardware on a physical sample. The exact material grade has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 9,
+    "slug": "cloud-quilted-jacket",
+    "name": "Cloud Quilted Jacket",
+    "category": "Puffer",
+    "price": 700,
+    "badge": "LIGHT LAYER",
+    "colors": [
+      "Cream",
+      "Black",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm shell, fill and lining composition",
+    "care": "Confirm washing and drying instructions with the supplier",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A quilted outerwear design for adding texture to everyday outfits. Confirm the insulation and fabric details.",
+    "image": "https://levi.in/cdn/shop/files/004JS0000_01_Styleshot.jpg?v=1762933140&width=1200",
+    "images": [
+      "https://levi.in/cdn/shop/files/004JS0000_01_Styleshot.jpg?v=1762933140&width=1200",
+      "https://cdn.shopify.com/s/files/1/0646/7901/8715/t/8/assets/1dea1f09c0c6--img-eyecatch-02-541fac.JPG?v=1769154488&width=754",
+      "https://images.teemill.com/iwxtnvx7qm79i0hc5dml24xsbi3btbowieimzvin7ocetsx0.png.png?h=auto&w=1080"
+    ],
+    "colorImages": {
+      "Cream": "https://levi.in/cdn/shop/files/004JS0000_01_Styleshot.jpg?v=1762933140&width=1200",
+      "Black": "https://cdn.assets.struct.com/aoworkwear/8cad62cf-80cd-42da-94d3-23d6987ecc95/162710_14.jpg?bgcolor=ffffff&format=webp&height=1500&quality=75&width=1500",
+      "Olive": "https://8f08a8-ss.akinoncloudcdn.com/products/2024/11/01/42022486/7e103e5f-e187-48a9-ae8b-638d9fb0eb0b_size3840_cropCenter.jpg"
+    },
+    "related": [
+      "midnight-puffer",
+      "urban-puffer-vest",
+      "trail-windbreaker"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 700,
+      "M": 800,
+      "L": 900,
+      "XL": 1000,
+      "XXL": 1150
+    },
+    "galleryViews": [
+      {
+        "src": "https://levi.in/cdn/shop/files/004JS0000_02_Front.jpg?v=1762933140&width=1200",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JS0000_05_Side.jpg?v=1762933140&width=1200",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JS0000_03_Back.jpg?v=1762933140&width=1200",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check quilting consistency, fill distribution, zipper, lining and seam strength on a physical sample. Warmth and insulation performance have not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 10,
+    "slug": "sable-harrington",
+    "name": "Sable Harrington Jacket",
+    "category": "Bomber",
+    "price": 750,
+    "badge": "TIMELESS STYLE",
+    "colors": [
+      "Brown",
+      "Black",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "An understated short jacket for everyday outfits. The photo and all garment details should be verified before launch.",
+    "image": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+    "images": [
+      "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+      "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946"
+    ],
+    "colorImages": {
+      "Brown": "https://armyandoutdoors.co.uk/cdn/shop/files/Harrington-Brown-HARBN1.jpg?v=1734368234&width=1445",
+      "Black": "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920",
+      "Navy": "https://image.hm.com/assets/hm/72/13/7213bf308f47fac6e586d5aa331581601fa854a3.jpg?imwidth=2160"
+    },
+    "related": [
+      "evergreen-bomber",
+      "minimal-black-bomber",
+      "field-utility-jacket"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 750,
+      "M": 850,
+      "L": 950,
+      "XL": 1050,
+      "XXL": 1200
+    },
+    "galleryViews": [
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_02_Front.jpg?v=1762939816&width=1200",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_05_Side.jpg?v=1762939816&width=1200",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_03_Back.jpg?v=1762939816&width=1200",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check shell finish, ribbed cuffs/hem, lining, pocket stitching and zipper on a physical sample. The exact fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 11,
+    "slug": "trail-windbreaker",
+    "name": "Trail Windbreaker",
+    "category": "Windbreaker",
+    "price": 800,
+    "badge": "ACTIVE EDIT",
+    "colors": [
+      "Olive",
+      "Blue",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm shell and lining composition",
+    "care": "Verify water-resistance claims and care instructions before publishing",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A sporty lightweight outer layer for casual travel and everyday dressing. Confirm any weather-resistance claims.",
+    "image": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+    "images": [
+      "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946"
+    ],
+    "colorImages": {
+      "Olive": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+      "Blue": "https://image.hm.com/assets/hm/72/13/7213bf308f47fac6e586d5aa331581601fa854a3.jpg?imwidth=2160",
+      "Black": "https://i5.walmartimages.com/seo/Windproof-Lightweight-Windbreaker-Shell-Jacket-for-Men-Black-L_a038e049-9dd1-46dd-a19a-9258bfa9f74d.655ce2061c82539669e6a32acbd4a1a6.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640"
+    },
+    "related": [
+      "field-utility-jacket",
+      "evergreen-bomber",
+      "midnight-puffer"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "explodedView": "assets/technical-hooded-jacket-exploded-view.png",
+    "sizePrices": {
+      "S": 800,
+      "M": 900,
+      "L": 1000,
+      "XL": 1100,
+      "XXL": 1250
+    },
+    "galleryViews": [
+      {
+        "src": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://ic4-a.wowma.net/mis/gr/135/image.wowma.jp/23095834/3442291-7.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://clothingcompanysydney.com/cdn/shop/files/S6518f0fb78bc46599c9e86365070409dV.webp?v=1764016227&width=1946",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check seam finishing, zipper, lining and fabric feel on a physical sample. Water resistance and breathability have not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 12,
+    "slug": "cocoa-overshirt",
+    "name": "Cocoa Overshirt",
+    "category": "Shacket",
+    "price": 850,
+    "badge": "EASY ESSENTIAL",
+    "colors": [
+      "Brown",
+      "Cream",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A relaxed overshirt inspired layer for easy outfits. Confirm the exact product photography, fabric and sizing.",
+    "image": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+    "images": [
+      "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+      "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000"
+    ],
+    "colorImages": {
+      "Brown": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+      "Cream": "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000",
+      "Olive": "https://cdn.jarrolds.co.uk/datahub/50/480/tommy-hilfiger/tommy-hilfiger-textured-washed-sateen-utility-shirt-jacket-1.jpg"
+    },
+    "related": [
+      "stone-check-shacket",
+      "raw-indigo-denim",
+      "sable-harrington"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 850,
+      "M": 950,
+      "L": 1050,
+      "XL": 1150,
+      "XXL": 1300
+    },
+    "galleryViews": [
+      {
+        "src": "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://sc3.locondo.jp/contents/commodity_image/HM/HM5914EM006668_8_l.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.platform.next/common/items/default/default/itemimages/3_4Ratio/product/lge/G26840s2.jpg?im=Resize%2Cwidth%3D750",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check fabric hand-feel, button attachment, collar shape and seam finishing on a physical sample. Fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 13,
+    "slug": "classic-field-layer",
+    "name": "Classic Field Layer",
+    "category": "Utility",
+    "price": 900,
+    "badge": "THE CLASSICS",
+    "colors": [
+      "Olive",
+      "Sand",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A functional outerwear-inspired layer with a pared-back finish. Verify product specifications and images before sale.",
+    "image": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+    "images": [
+      "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+      "https://www.jcrew.com/s7-img-facade/BO416_WZ2562?crop=0%2C0%2C1600%2C0&hei=2000"
+    ],
+    "colorImages": {
+      "Olive": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+      "Sand": "https://www.careofcarl.dk/bilder/artiklar/600x600_grey_4_5/24643411r.jpg",
+      "Navy": "https://www.careofcarl.no/bilder/artiklar/zoom/26314611r_3.jpg?m=1709042866"
+    },
+    "related": [
+      "field-utility-jacket",
+      "trail-windbreaker",
+      "evergreen-bomber"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 900,
+      "M": 1000,
+      "L": 1100,
+      "XL": 1200,
+      "XXL": 1350
+    },
+    "galleryViews": [
+      {
+        "src": "https://wavlynn.com/cdn/shop/files/field_jacket_zice508hhip0322lpifclidb_product_with_face.webp?v=1763765585&width=1445",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.careofcarl.dk/bilder/artiklar/600x600_grey_4_5/24643411r.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://image.rakuten.co.jp/auc-arcade/cabinet/07507444/acdct2464977-6.jpg",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check pocket stitching, closure strength, seam finishing and fabric weight on a physical sample. Technical performance has not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 14,
+    "slug": "monochrome-varsity",
+    "name": "Monochrome Varsity",
+    "category": "Varsity",
+    "price": 950,
+    "badge": "TRENDING STYLE",
+    "colors": [
+      "Black",
+      "Cream",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Relaxed fit",
+    "fabric": "Confirm shell, lining and trim composition",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A varsity-inspired layer for relaxed styling. Verify the final design, materials, colours and images with the seller.",
+    "image": "https://image.rakuten.co.jp/lax/cabinet/04250087/04251666/08006347/7833952013_35.jpg",
+    "images": [
+      "https://image.rakuten.co.jp/lax/cabinet/04250087/04251666/08006347/7833952013_35.jpg",
+      "https://barbershop.co.kr/web/product/big/202301/abf6f284ddab91fa5a6ede5b7944d3bb.jpg"
+    ],
+    "colorImages": {
+      "Black": "https://image.rakuten.co.jp/lax/cabinet/04250087/04251666/08006347/7833952013_35.jpg",
+      "Cream": "https://shop.simon.com/cdn/shop/files/4b758173cfbd4727903aae770bed5e5b_1080x.jpg?v=1758664159",
+      "Navy": "https://leatherjacketwear.com/cdn/shop/files/Mens-Navy-Blue-Varsity-Jacket-Front.webp?v=1705040151"
+    },
+    "related": [
+      "heritage-varsity",
+      "raw-indigo-denim",
+      "atlas-leather-biker"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 950,
+      "M": 1050,
+      "L": 1150,
+      "XL": 1250,
+      "XXL": 1400
+    },
+    "galleryViews": [
+      {
+        "src": "https://barbershop.co.kr/web/product/big/202301/abf6f284ddab91fa5a6ede5b7944d3bb.jpg",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://image.rakuten.co.jp/lax/cabinet/04250087/04251666/08006347/7833952013_35.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.clothbase.com/uploads/fdf726b3-4dff-47e8-9477-cf8e965a0178/P00730244_d1.jpg",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check rib-knit cuffs, collar, sleeve joins, snap/button closure and lining on a physical sample. The actual shell and sleeve materials have not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 15,
+    "slug": "urban-puffer-vest",
+    "name": "Urban Puffer Vest",
+    "category": "Puffer",
+    "price": 1000,
+    "badge": "LAYERING PICK",
+    "colors": [
+      "Black",
+      "Olive",
+      "Cream"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm shell, fill and lining composition",
+    "care": "Confirm care instructions with the supplier",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A sleeveless layer designed to be worn over sweatshirts and long-sleeve tops. Confirm the actual product specification.",
+    "image": "https://ai.esmplus.com/gded/590/411/5904118007/2025102721392896df73.jpg",
+    "images": [
+      "https://ai.esmplus.com/gded/590/411/5904118007/2025102721392896df73.jpg",
+      "https://images.teemill.com/iwxtnvx7qm79i0hc5dml24xsbi3btbowieimzvin7ocetsx0.png.png?h=auto&w=1080",
+      "https://nosauce.store/cdn/shop/files/No_Sauce_Product_Pictures-549.png?v=1776727924&width=1445"
+    ],
+    "colorImages": {
+      "Black": "https://ai.esmplus.com/gded/590/411/5904118007/2025102721392896df73.jpg",
+      "Olive": "https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-1416443_lifestyle?fmt=jpeg&hei=600&wid=600",
+      "Cream": "https://cdn.mainlinemenswear.co.uk/images/w_450%2Ch_450/f_auto%2Cq_auto/mainlinemenswear/shopimages/products/207300/Mainimage.jpg/Ralph%20Lauren%20Cream%20Quilted%20Gilet"
+    },
+    "related": [
+      "midnight-puffer",
+      "cloud-quilted-jacket",
+      "trail-windbreaker"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 1000,
+      "M": 1100,
+      "L": 1200,
+      "XL": 1300,
+      "XXL": 1450
+    },
+    "galleryViews": [
+      {
+        "src": "https://ai.esmplus.com/gded/590/411/5904118007/2025102721392896df73.jpg",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://www.careofcarl.dk/bilder/artiklar/600x600_grey_4_5/29747911r.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.mainlinemenswear.co.uk/images/w_450%2Ch_450/f_auto%2Cq_auto/mainlinemenswear/shopimages/products/207300/Mainimage.jpg/Ralph%20Lauren%20Cream%20Quilted%20Gilet",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check quilting consistency, fill distribution, zipper, lining and seam strength on a physical sample. Warmth and insulation performance have not been tested. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 16,
+    "slug": "washed-denim-jacket",
+    "name": "Washed Denim Jacket",
+    "category": "Denim",
+    "price": 1050,
+    "badge": "DENIM EDIT",
+    "colors": [
+      "Blue",
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm denim composition and garment weight",
+    "care": "Confirm colour-care instructions with the supplier",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A lived-in denim-inspired jacket to pair with casual basics. Confirm the actual wash and garment measurements.",
+    "image": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+    "images": [
+      "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768"
+    ],
+    "colorImages": {
+      "Blue": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+      "Black": "https://sportano.pl/img/986c30c27a3d26a3ee16c136f92f4ff5/5/9/5907494508690_20-jpg/kurtka-meska-prosto-civil-washed-black-0.jpg",
+      "Grey": "https://shopping.c.yimg.jp/lib/geneless/07line_-_nfl_01_-_07-0082n-204.jpg"
+    },
+    "related": [
+      "raw-indigo-denim",
+      "stone-check-shacket",
+      "heritage-varsity"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "explodedView": "assets/denim-jacket-exploded-view.png",
+    "sizePrices": {
+      "S": 1050,
+      "M": 1150,
+      "L": 1250,
+      "XL": 1350,
+      "XXL": 1500
+    },
+    "galleryViews": [
+      {
+        "src": "https://images.ctfassets.net/z6qr8wmxb7ub/5ZB6G50Ll63HB7LwNWvHzk/a71352cf5196bef727ce8ab188e4eb8a/Takit_Miehet_Kategoriakuvat_424x4242.png?fm=webp&q=80&w=768",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.shop-list.com/res/up/shoplist/shp/__thum370__/geneless/geneless/cabinet/shouhin01/07line/sts_02/07-0019-204.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://rodeo-japan-pine-avenue.com/cdn/shop/files/sc15650h-18_1200x1200.jpg?v=1727429525",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check denim weight, button attachment, seam strength and colour transfer on a physical sample. Fabric composition and wash durability have not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 17,
+    "slug": "minimal-black-bomber",
+    "name": "Minimal Black Bomber",
+    "category": "Bomber",
+    "price": 700,
+    "badge": "WARDROBE CORE",
+    "colors": [
+      "Black",
+      "Navy",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm fabric composition with the supplier",
+    "care": "Use supplier-approved care instructions",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A versatile dark jacket designed to work with simple everyday outfits. Confirm its materials, colour options and photos before launch.",
+    "image": "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920",
+    "images": [
+      "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920"
+    ],
+    "colorImages": {
+      "Black": "https://senestudio.com/cdn/shop/files/Black-web.jpg?v=1748453655&width=1920",
+      "Navy": "https://image.hm.com/assets/hm/72/13/7213bf308f47fac6e586d5aa331581601fa854a3.jpg?imwidth=2160",
+      "Olive": "https://shop.uncrate.com/cdn/shop/files/alpha-industries-flight-jacket-2.jpg?v=1760984772&width=1946"
+    },
+    "related": [
+      "evergreen-bomber",
+      "sable-harrington",
+      "atlas-leather-biker"
+    ],
+    "newIn": false,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 700,
+      "M": 800,
+      "L": 900,
+      "XL": 1000,
+      "XXL": 1150
+    },
+    "galleryViews": [
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_02_Front.jpg?v=1762939816&width=1200",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_05_Side.jpg?v=1762939816&width=1200",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://levi.in/cdn/shop/files/004JY0000_03_Back.jpg?v=1762939816&width=1200",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check shell finish, ribbed cuffs/hem, lining, pocket stitching and zipper on a physical sample. The exact fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  },
+  {
+    "id": 18,
+    "slug": "desert-sand-trench",
+    "name": "Desert Sand Trench",
+    "category": "Trench",
+    "price": 750,
+    "badge": "PREMIUM EDIT",
+    "colors": [
+      "Sand",
+      "Brown",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fit": "Regular fit",
+    "fabric": "Confirm fabric composition and lining with the supplier",
+    "care": "Confirm washing or dry-cleaning instructions before publishing",
+    "model": "Model details to be confirmed",
+    "stock": null,
+    "description": "A longline outerwear-inspired layer for polished city outfits. Confirm the actual garment details and images before selling.",
+    "image": "https://www.mackintosh.com/cdn/shop/files/GENTS-BLANEFIELDGM-1170F-HONEY-OC0514copy-FEATURE.jpg?v=1773831172",
+    "images": [
+      "https://www.mackintosh.com/cdn/shop/files/GENTS-BLANEFIELDGM-1170F-HONEY-OC0514copy-FEATURE.jpg?v=1773831172"
+    ],
+    "colorImages": {
+      "Sand": "https://www.mackintosh.com/cdn/shop/files/GENTS-BLANEFIELDGM-1170F-HONEY-OC0514copy-FEATURE.jpg?v=1773831172",
+      "Brown": "https://cdn.dsmcdn.com/ty1831/prod/QC_PREP/20260225/12/65bf2be9-2aac-3caa-8c31-842db7e729c2/1_org_zoom.jpg",
+      "Black": "https://image.rakuten.co.jp/liugoo/cabinet/17a/n2085/n2085_dtl6.jpg"
+    },
+    "related": [
+      "sable-harrington",
+      "field-utility-jacket",
+      "atlas-leather-biker"
+    ],
+    "newIn": true,
+    "imageSourceNote": "Reference photography sourced from third-party product pages for storefront layout only. Verify the exact garment, colour and image-use rights; replace with approved AmaanTrader stock photos before selling.",
+    "model3d": "",
+    "sizePrices": {
+      "S": 750,
+      "M": 850,
+      "L": 950,
+      "XL": 1050,
+      "XXL": 1200
+    },
+    "galleryViews": [
+      {
+        "src": "https://www.mackintosh.com/cdn/shop/files/GENTS-BLANEFIELDGM-1170F-HONEY-OC0514copy-FEATURE.jpg?v=1773831172",
+        "label": "Front view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://sc3.locondo.jp/contents/commodity_image/SA/SA1959EM001072_9_l.jpg",
+        "label": "Side view",
+        "kind": "angle"
+      },
+      {
+        "src": "https://cdn.dsmcdn.com/ty1831/prod/QC_PREP/20260225/12/65bf2be9-2aac-3caa-8c31-842db7e729c2/1_org_zoom.jpg",
+        "label": "Back view",
+        "kind": "angle"
+      }
+    ],
+    "qualityNote": "Check fabric drape, lining, button attachment, belt finish and seam alignment on a physical sample. Fabric composition has not been verified. Photo references do not prove garment quality; inspect an actual sample and confirm the supplier’s material grade and quality checks before sale.",
+    "galleryNote": "Reference photography for front, side and back styling; confirm the exact AmaanTrader garment, colour and image-use permission before launch.",
+    "qualitySummary": "Preview only — quality cannot be confirmed from a photograph. Check fabric hand-feel, stitching, lining, zips/buttons and colour transfer on an actual sample. Confirm material composition and supplier quality checks before selling."
+  }
+]

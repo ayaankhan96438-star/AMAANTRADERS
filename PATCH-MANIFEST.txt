@@ -1,0 +1,34 @@
+AmaanTrader file patch
+
+REPLACE existing files: index.html, style.css, script.js, products.json, product.js
+ADD new files: server.js, package.json, site-config.js, generate_pages.py, upgrade-product.css, favicon.svg
+ADD/KEEP assets: assets/jacket-placeholder.svg
+PRIVATE local backend store files: orders.json, users.json, sessions.json (server blocks public reads)
+PRESERVE existing files not supplied in this patch: policies.html, policies.css, product.css and other custom assets.
+
+Run: python3 generate_pages.py && npm start
+Open: http://localhost:3000
+
+Exploded-view Quick View update:
+  UPDATED: index.html, script.js, style.css, products.json, README.md
+  ADDED: assets/denim-jacket-exploded-view.png
+  ADDED: assets/technical-hooded-jacket-exploded-view.png
+  ADDED: EXPLODED-VIEW-TEST-REPORT.md
+  Existing cart, wishlist, product IDs, prices, colours, sizes and URLs are preserved.
+
+Additional update (PIN lookup / notifications / payment events):
+- index.html: checkout PIN lookup control and customer cancel/refund request form.
+- script.js: PIN lookup, optional Razorpay Checkout and order support form handlers.
+- style.css: compact endless marquee and responsive order-support styles.
+- server.js: PIN directory proxy, Resend email alerts, WhatsApp Cloud API template alerts, customer cancellation/refund requests, optional Razorpay checkout signature verification and signed webhook processing.
+- .env.example: safe placeholders for notification and payment provider configuration.
+- NOTIFICATIONS-SETUP-HINGLISH.txt: Hinglish configuration guide.
+
+
+Editorial multi-page storefront update:
+- REFINED: style.css, index.html, policies.html, product page template, site palette and compact marquee.
+- ADDED: pages.css, pages.js, catalog.js, lookbook.js, support.js, shop/, about/, lookbook/, contact/, order-support/, size-guide/, DESIGN-AND-PAGES-NOTES.md.
+- UPDATED: generated product pages and all main navigation links for desktop/mobile.
+- UPDATED: package.json check script and security-check.js to smoke-test all storefront routes.
+- KEPT: 18-product catalogue, cart, wishlist, quick view, product galleries, PIN lookup, email/WhatsApp alert backend and optional verified Razorpay checkout/webhooks.
+- CONFIG: .env.example is now blank by default. Keep provider secrets in .env only; site-config.js contains public customer-facing contact details only.

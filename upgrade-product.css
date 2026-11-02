@@ -1,0 +1,19 @@
+/* AmaanTrader product-detail enhancements */
+.product-variant-summary { margin: 10px 0 0; color: var(--muted); font-size: 12px; }
+.product-studio-button { display:flex; align-items:center; justify-content:center; gap:9px; width:100%; margin-top:14px; padding:13px 15px; border:1px solid var(--forest); background:transparent; color:var(--forest); font-size:12px; font-weight:700; letter-spacing:.6px; text-transform:uppercase; transition:background .2s,color .2s; }
+.product-studio-button:hover { background:var(--forest); color:#fff; }
+.product-3d-backdrop { position:fixed; inset:0; z-index:110; display:flex; align-items:center; justify-content:center; padding:22px; background:rgba(9,19,14,.82); opacity:0; visibility:hidden; transition:opacity .25s,visibility .25s; }
+.product-3d-backdrop.is-open { opacity:1; visibility:visible; }
+.product-3d-modal { position:relative; display:grid; grid-template-columns:minmax(0,1.2fr) minmax(240px,.8fr); gap:30px; width:min(1000px,100%); max-height:calc(100dvh - 44px); overflow:auto; padding:28px; background:var(--paper); box-shadow:0 28px 90px rgba(0,0,0,.3); }
+.product-3d-close { position:absolute; top:10px; right:12px; z-index:2; width:40px; height:40px; border:0; background:transparent; font-size:30px; }
+.product-3d-stage-wrap { display:flex; align-items:center; justify-content:center; min-height:380px; perspective:1200px; background:radial-gradient(ellipse at center,#fff 0,#efeee8 66%,#e5e2d8 100%); overflow:hidden; }
+.product-3d-stage { display:grid; place-items:center; width:100%; height:100%; min-height:380px; outline:none; perspective:900px; touch-action:pan-y; }
+.product-3d-stage img { width:min(88%,520px); max-height:64vh; object-fit:contain; filter:drop-shadow(20px 28px 16px rgba(26,36,29,.20)); transform:rotateY(var(--studio-rotate-y,0deg)) rotateX(var(--studio-rotate-x,0deg)) translateZ(24px); transition:transform .16s ease-out; }
+.product-3d-copy { align-self:center; padding:20px 12px 20px 0; }
+.product-3d-copy .eyebrow { display:block; }
+.product-3d-copy h2 { margin:12px 0; color:var(--forest); font-family:var(--serif); font-size:clamp(28px,4vw,42px); font-weight:500; line-height:1.1; }
+.product-3d-copy p { color:var(--muted); font-size:13px; line-height:1.8; }
+.product-3d-controls { display:flex; gap:10px; margin-top:18px; }
+.product-3d-controls button { min-height:42px; padding:0 14px; border:1px solid var(--line); background:transparent; color:var(--forest); font-size:12px; font-weight:700; }
+.product-3d-note { margin-top:18px; padding:13px; background:#f1efe7; color:#596257; font-size:11px; line-height:1.65; }
+@media(max-width:700px){.product-3d-modal{grid-template-columns:1fr;gap:18px;padding:20px}.product-3d-stage-wrap,.product-3d-stage{min-height:310px}.product-3d-copy{padding:0}.product-3d-stage img{max-height:42vh}}

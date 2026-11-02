@@ -1,0 +1,5 @@
+import { useEffect,useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { ArrowUp,Heart,Home,ShoppingBag,Store,UserRound } from 'lucide-react';
+import { useStore } from '../context/StoreContext';
+export function UtilityNavigation(){const {cartCount}=useStore();const [visible,setVisible]=useState(false);useEffect(()=>{const fn=()=>setVisible(window.scrollY>520);window.addEventListener('scroll',fn,{passive:true});fn();return()=>window.removeEventListener('scroll',fn);},[]);return <><nav className="mobile-bottom-nav" aria-label="Quick navigation"><NavLink to="/"><Home size={18}/><span>Home</span></NavLink><NavLink to="/shop"><Store size={18}/><span>Shop</span></NavLink><NavLink to="/account/wishlist"><Heart size={18}/><span>Saved</span></NavLink><NavLink to="/cart" className="mobile-bag"><ShoppingBag size={18}/><span>Bag</span>{cartCount>0&&<i>{cartCount}</i>}</NavLink><NavLink to="/account"><UserRound size={18}/><span>Account</span></NavLink></nav>{visible&&<button className="back-to-top" aria-label="Back to top" onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}><ArrowUp size={17}/></button>}</>}

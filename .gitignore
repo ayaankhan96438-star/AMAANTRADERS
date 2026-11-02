@@ -1,0 +1,43 @@
+node_modules/
+orders.json
+users.json
+sessions.json
+.env
+.DS_Store
+webhook-events.json
+__pycache__/
+*.py[cod]
+*.tmp
+dist/
+*.tsbuildinfo
+
+# Dependencies and build files
+node_modules/
+dist/
+
+# Private credentials — never upload
+.env
+.env.*
+!.env.example
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Private order data
+order.json
+
+# Local backups
+*.backup
+
+# Accidental duplicate asset folder
+assest/
+
+# Private order data
+order.json
+
+# Local backups
+*.backup
+
+# Accidental duplicate asset folder
+assest/
