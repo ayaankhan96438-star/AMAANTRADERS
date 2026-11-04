@@ -18,7 +18,8 @@ template = """<!doctype html>
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../product.css"><link rel="stylesheet" href="../../upgrade-product.css"><link rel="stylesheet" href="../../pages.css">
+  <link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../product.css"><link rel="stylesheet" href="../../upgrade-product.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.27/dist/lenis.css"><link rel="stylesheet" href="../../pages.css">
   <script src="../../site-config.js" defer></script><script src="../../pages.js" defer></script><script src="../../product.js" defer></script>
 </head>
 <body data-product-slug="{slug}">
@@ -62,6 +63,7 @@ template = """<!doctype html>
   <div class="sticky-product-actions" id="stickyProductActions"><span>{title} · From ₹{price}</span><button class="button button-dark" id="stickyProductAdd" type="button">CHOOSE SIZE ↑</button></div>
   <footer class="policy-footer"><span>© <span id="productYear"></span> AMAANTRADER</span><a href="../../index.html">Back to the store</a></footer>
   <script>document.getElementById("productYear").textContent = String(new Date().getFullYear());</script>
+  <script type="module" src="../../animations.js"></script>
 </body></html>"""
 
 for product in PRODUCTS:
