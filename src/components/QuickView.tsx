@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AnimatePresence,motion } from 'framer-motion';
+import { AnimatePresence,motion } from 'motion/react';
 import { Minus,Plus,X,ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Product } from '../types';

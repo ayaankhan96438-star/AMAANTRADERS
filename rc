@@ -1,0 +1,13 @@
+ .github/workflows/deploy.yml   |   6 [32m+[m[31m-[m
+ animations.js                  | 335 [32m+++++++++++++++++++++++++++++++++++++++++++++[m[31m------------------------------------[m
+ package-lock.json              |  94 [32m++++++++++++++++++[m[31m-----[m
+ package.json                   |  14 [32m++[m[31m--[m
+ src/App.tsx                    |   2 [32m+[m[31m-[m
+ src/components/Header.tsx      |   2 [32m+[m[31m-[m
+ src/components/ProductCard.tsx |   2 [32m+[m[31m-[m
+ src/components/QuickView.tsx   |   2 [32m+[m[31m-[m
+ src/components/Reveal.tsx      |   2 [32m+[m[31m-[m
+ src/components/ToastHost.tsx   |   2 [32m+[m[31m-[m
+ src/pages/HomePage.tsx         |  27 [32m++++++[m[31m-[m
+ src/pages/ProductPage.tsx      |   2 [32m+[m[31m-[m
+ 12 files changed, 305 insertions(+), 185 deletions(-)

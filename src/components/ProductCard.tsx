@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { ArrowUpRight, Heart, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Product } from '../types';

@@ -1,6 +1,6 @@
 import { useEffect,useState } from 'react';
 import { Link,NavLink,useLocation } from 'react-router-dom';
-import { AnimatePresence,motion } from 'framer-motion';
+import { AnimatePresence,motion } from 'motion/react';
 import { ArrowUpRight, Heart, Menu, Search, ShoppingBag, UserRound, X } from 'lucide-react';
 import Brand from './Brand';
 import { useStore } from '../context/StoreContext';

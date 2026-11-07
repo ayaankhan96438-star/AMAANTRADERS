@@ -1,5 +1,5 @@
 import { HashRouter,Route,Routes,useLocation } from 'react-router-dom';
-import { AnimatePresence,motion } from 'framer-motion';
+import { AnimatePresence,motion } from 'motion/react';
 import { StoreProvider } from './context/StoreContext';
 import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
