@@ -6,7 +6,7 @@ A React + Vite + TypeScript fashion storefront built on top of the existing Amaa
 
 - React 18, Vite 6, TypeScript
 - Tailwind CSS 3.4 and custom responsive design system
-- Framer Motion for page/section/modal transitions
+- Motion (`motion/react`) for page/section/modal transitions
 - React Router for navigation
 - Lucide React for icons
 - Context API for cart, wishlist, profile and toasts
@@ -107,3 +107,20 @@ npm run check           # TypeScript project check + Node syntax checks
 npm run security-check  # Existing backend regression checks
 npm start               # Serve dist/ and API (build first)
 ```
+
+
+## Local development
+
+Install dependencies and start the website:
+
+    npm install
+    npm run dev
+
+Check and build:
+
+    npm run check
+    npm run build
+
+Publish updates to GitHub:
+
+    ./push-updates.sh
