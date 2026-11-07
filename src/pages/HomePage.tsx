@@ -28,7 +28,7 @@ const motionHeroWord = (
         animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
         transition={{
           duration: 0.55,
-          delay: startDelay + index * 0.075,
+          delay: startDelay + index * 0.035,
           ease: [0.22, 1, 0.36, 1]
         }}
       >
@@ -47,11 +47,21 @@ export default function HomePage(){
  const {products,notify}=useStore();const [quick,setQuick]=useState<Product|null>(null);const reduceMotion=useReducedMotion();const featured=products.slice(0,4);const newArrivals=products.filter(p=>p.newIn).slice(0,4);const hero=products[0];
  return <main>
   <section className="hero-section"><div className="hero-image-wrap"><img src={hero?.images?.[0]||hero?.image} alt="AmaanTraders outerwear campaign"/><div className="hero-image-tint"/></div><div className="hero-orbit">AT<span> / </span>01</div><motion.div className="hero-content" initial={reduceMotion?false:{opacity:0}} animate={reduceMotion?{}:{opacity:1}} transition={{duration:.45,ease:[.22,1,.36,1]}}><span className="eyebrow hero-eyebrow"><i/> THE NEW OUTERWEAR LANGUAGE</span><h1 id="heroTitle" aria-label="Where fashion follows.">
-  {motionHeroWord('Where', 'where', reduceMotion, 0.10)}{' '}
-  {motionHeroWord('fashion', 'fashion', reduceMotion, 0.48)}
+  {motionHeroWord('Where', 'where', reduceMotion, 0.03)}{' '}
+  {motionHeroWord('fashion', 'fashion', reduceMotion, 0.20)}
   <br/>
-  <em>{motionHeroWord('follows.', 'follows', reduceMotion, 1.00)}</em>
-</h1><p>Considered layers for wherever the day takes you. A study in form, feeling and the freedom to make it your own.</p><div className="hero-actions"><Link to="/shop" className="btn-dark">Explore collection <ArrowUpRight size={17}/></Link><Link to="/lookbook" className="btn-outline-light">View the lookbook <Play size={13}/></Link></div></motion.div><div className="hero-foot"><span>INDEPENDENT OUTERWEAR / EST. 2024</span><span>01 — 04</span></div></section>
+  <em>{motionHeroWord('follows.', 'follows', reduceMotion, 0.40)}</em>
+</h1><motion.p
+  initial={reduceMotion ? false : {opacity:0,y:8}}
+  animate={reduceMotion ? undefined : {opacity:1,y:0}}
+  transition={{duration:.35,delay:.50,ease:[.22,1,.36,1]}}
+>Considered layers for wherever the day takes you. A study in form, feeling and the freedom to make it your own.</motion.p>
+<motion.div
+  className="hero-actions"
+  initial={reduceMotion ? false : {opacity:0,y:8}}
+  animate={reduceMotion ? undefined : {opacity:1,y:0}}
+  transition={{duration:.35,delay:.66,ease:[.22,1,.36,1]}}
+><Link to="/shop" className="btn-dark">Explore collection <ArrowUpRight size={17}/></Link><Link to="/lookbook" className="btn-outline-light">View the lookbook <Play size={13}/></Link></motion.div></motion.div><div className="hero-foot"><span>INDEPENDENT OUTERWEAR / EST. 2024</span><span>01 — 04</span></div></section>
   <section className="ticker-bar" aria-label="Brand message"><div className="ticker-track">{Array.from({length:4}).map((_,i)=><span key={i}>WHERE FASHION FOLLOWS FEELING <b>✳</b> MADE TO MOVE WITH YOU <b>✳</b> THE ART OF OUTERWEAR <b>✳</b></span>)}</div></section>
   <section className="intro-section section-pad" id="new-season"><Reveal><div className="section-kicker"><span>01 / THE COLLECTION</span><span>DESIGNED FOR REAL LIFE</span></div><div className="intro-grid"><h2>Not just a layer.<br/><em>A point of view.</em></h2><div className="intro-side"><p>We believe the pieces you reach for most should feel like the pieces that feel most like you. Thoughtful silhouettes, everyday confidence and room to move.</p><Link className="text-link" to="/about">A little about us <ArrowUpRight size={15}/></Link></div></div></Reveal><div className="category-grid">{categories.map((cat,i)=><Reveal key={cat.name} delay={i*.07}><Link to={cat.to} className={`category-tile category-${i}`}><img src={cat.image} alt={`${cat.name} jackets`} loading="lazy"/><div className="category-shade"/><div className="category-label"><span>0{i+1} / CATEGORY</span><h3>{cat.name}</h3><p>{cat.sub}</p></div><span className="round-arrow"><ArrowUpRight/></span></Link></Reveal>)}</div></section>
   <section className="product-section section-pad section-warm"><div className="section-heading"><div><span className="eyebrow">02 / EDITED FOR YOU</span><h2>Trending <em>right now.</em></h2><p>Favourites that have found their way into the everyday.</p></div><Link className="text-link" to="/shop">Shop all jackets <ArrowUpRight size={15}/></Link></div><div className="product-grid">{featured.map((p,i)=><ProductCard key={p.id} product={p} index={i} onQuickView={setQuick}/>)}</div></section>
