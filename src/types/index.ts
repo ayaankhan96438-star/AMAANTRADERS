@@ -21,6 +21,8 @@ export type Product = {
   stock?: number | null;
   description?: string;
   image: string;
+  /** Optional transparent cutout used only by the homepage feature carousel. */
+  heroImage?: string;
   images?: string[];
   colorImages?: Record<string, string | undefined>;
   related?: Array<number | string>;

@@ -1,4 +1,5 @@
 import type { Product } from '../types';
+import BlurImage from './BlurImage';
 
 type JacketShowcaseProps = {
   product?: Product;
@@ -17,12 +18,14 @@ export default function JacketShowcase({ product }: JacketShowcaseProps) {
     <section className="at-jacket-showcase section-pad" data-at-showcase data-no-reveal="true">
       <div className="at-jacket-showcase-media">
         {image ? (
-          <img
+          <BlurImage
             src={image}
             alt={`${product.name} — jacket showcase`}
             data-at-showcase-image
             loading="lazy"
             decoding="async"
+            frameClassName="at-showcase-image-frame"
+            imageClassName="at-showcase-photo"
           />
         ) : null}
         <span className="at-jacket-showcase-image-caption">AMAANTRADER / THE OUTERWEAR STUDY</span>

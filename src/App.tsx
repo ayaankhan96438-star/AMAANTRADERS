@@ -6,6 +6,7 @@ import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ToastHost from './components/ToastHost';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import { UtilityNavigation } from './components/UtilityNavigation';
 import HomePage from './pages/HomePage';
 import ShopPage from './pages/ShopPage';
@@ -20,6 +21,8 @@ import { AboutPage, LookbookPage, JournalPage, SizeGuidePage, ContactPage, Order
 import PoliciesPage from './pages/PoliciesPage';
 import './styles/index.css';
 import './styles/responsive-polish.css';
+import './styles/forest-sand-stage-a.css';
+import './styles/forest-sand-stage-b.css';
 
 function ScrollToTopOnPathChange() {
   const { pathname } = useLocation();
@@ -87,6 +90,7 @@ function StoreLayout() {
       </AnimatePresence>
       {!isDashboard && <Footer />}
       {!isDashboard && <UtilityNavigation />}
+      {!isDashboard && <WhatsAppFloat />}
       <ToastHost />
     </>
   );

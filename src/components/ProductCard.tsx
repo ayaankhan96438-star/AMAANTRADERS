@@ -10,16 +10,23 @@ import {
 import { ArrowUpRight, Heart, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Product } from '../types';
-import jacketPlaceholder from '../assets/jacket-placeholder.svg';
-import { money } from '../lib/format';
+import BlurImage from './BlurImage';
+import { getPrice, money } from '../lib/format';
 import { useStore } from '../context/StoreContext';
+
 export default function ProductCard({product,index=0,onQuickView}:{product:Product;index?:number;onQuickView?:(product:Product)=>void}){
  const {toggleWishlist,isWishlisted,addToCart}=useStore();
  const [image,setImage]=useState(0);
- const hero=product.images?.[0]||product.image;
- const second=product.images?.[1];
+ const firstImage=product.images?.[0]||product.image;
+ const secondImage=product.images?.[1];
  const saved=isWishlisted(product.id);
  const reduceMotion=useReducedMotion() ?? false;
+ const availableCardSizes=['S','M','L','XL'].filter(size=>(product.sizes||[]).includes(size));
+ const price=product.sizes?.length
+   ? Math.min(...product.sizes.map(size=>getPrice(product,size)))
+   : Number(product.price)||0;
+ const originalPrice=Number(product.originalPrice)||0;
+ const discount=originalPrice>price?Math.round((originalPrice-price)/originalPrice*100):0;
 
  const pointerX=useMotionValue(0);
  const pointerY=useMotionValue(0);
@@ -40,6 +47,11 @@ export default function ProductCard({product,index=0,onQuickView}:{product:Produ
    pointerX.set(0);
    pointerY.set(0);
  };
+
+ const selectSecondImage=()=>{if(secondImage)setImage(1);};
+ const selectFirstImage=()=>setImage(0);
+ const activeImage=image===1&&secondImage?secondImage:firstImage;
+
  return <motion.article
   className="product-card"
   style={reduceMotion?undefined:{rotateX,rotateY,transformPerspective:1000}}
@@ -52,14 +64,24 @@ export default function ProductCard({product,index=0,onQuickView}:{product:Produ
   viewport={{once:true,amount:.08}}
   transition={{duration:.5,delay:Math.min(index*.045,.22),ease:[.22,1,.36,1]}}
 >
-  <div className="product-card-media"><Link to={`/product/${product.slug}`} className="product-image-link"><motion.img
-    src={image===0?hero:(second||hero)}
-    alt={product.name}
-    loading="lazy"
-    whileHover={reduceMotion?undefined:{scale:1.045}}
-    transition={{duration:.42,ease:[.22,1,.36,1]}}
-    onError={e=>{(e.currentTarget as HTMLImageElement).src=jacketPlaceholder;}}
-   /><span className="image-index">0{image+1} / 0{second?2:1}</span></Link>
+  <div className="product-card-media">
+   <Link
+    to={`/product/${product.slug}`}
+    className="product-image-link"
+    onMouseEnter={selectSecondImage}
+    onMouseLeave={selectFirstImage}
+    onFocus={selectSecondImage}
+    onBlur={selectFirstImage}
+   >
+    <BlurImage
+      src={activeImage}
+      alt={product.name}
+      loading="lazy"
+      frameClassName="product-card-image-frame"
+      imageClassName="product-card-photo"
+    />
+    <span className="image-index">0{image+1} / 0{secondImage?2:1}</span>
+   </Link>
    {product.badge&&<span className="product-badge">{product.badge}</span>}
    <motion.button
     className={`wishlist-btn ${saved?'is-saved':''}`}
@@ -75,15 +97,24 @@ export default function ProductCard({product,index=0,onQuickView}:{product:Produ
      <Heart size={17} fill={saved?'currentColor':'none'}/>
     </motion.span>
    </motion.button>
-   <div className="card-hover-actions"><button onClick={()=>onQuickView?.(product)}>Quick view <ArrowUpRight size={15}/></button><motion.button
-    aria-label="Add to bag"
-    onClick={()=>addToCart({id:product.id,size:product.sizes?.[0]||'M',color:product.colors?.[0]||'Black',quantity:1})}
-    whileTap={reduceMotion?undefined:{scale:.90}}
-    transition={{type:'spring',stiffness:500,damping:21}}
-   ><Plus size={17}/></motion.button></div>
-   {second&&<div className="view-dots"><button className={image===0?'selected':''} onClick={()=>setImage(0)} aria-label="First product image"/><button className={image===1?'selected':''} onClick={()=>setImage(1)} aria-label="Second product image"/></div>}
+   <div className="card-hover-actions">
+    <button onClick={()=>onQuickView?.(product)}>Quick view <ArrowUpRight size={15}/></button>
+    <motion.button
+     aria-label="Add to bag"
+     onClick={()=>addToCart({id:product.id,size:product.sizes?.[0]||'M',color:product.colors?.[0]||'Black',quantity:1})}
+     whileTap={reduceMotion?undefined:{scale:.90}}
+     transition={{type:'spring',stiffness:500,damping:21}}
+    ><Plus size={17}/></motion.button>
+   </div>
+   {secondImage&&<div className="view-dots"><button className={image===0?'selected':''} onClick={selectFirstImage} aria-label="First product image"/><button className={image===1?'selected':''} onClick={selectSecondImage} aria-label="Second product image"/></div>}
   </div>
-  <div className="product-card-info"><div><Link to={`/product/${product.slug}`} className="product-card-name">{product.name}</Link><span className="product-category">{product.category}</span></div><div className="product-card-price"><strong>{money(product.price)}</strong>{product.originalPrice&&<del>{money(Number(product.originalPrice))}</del>}</div></div>
+  <div className="product-card-info">
+   <div><Link to={`/product/${product.slug}`} className="product-card-name">{product.name}</Link><span className="product-category">{product.category}</span></div>
+   <div className="product-card-price"><strong>{money(price)}</strong>{discount>0&&<><del>{money(originalPrice)}</del><span className="product-discount-badge">{discount}% OFF</span></>}</div>
+  </div>
+  <div className="product-size-chips" aria-label={`Available sizes: ${availableCardSizes.join(', ')||'Not specified'}`}>
+   {availableCardSizes.map(size=><span key={size}>{size}</span>)}
+  </div>
   <div className="product-colors"><div>{(product.colors||[]).slice(0,4).map(c=><span title={c} key={c} className={`swatch swatch-${c.toLowerCase().replace(/[^a-z]/g,'')}`}/>)}</div><span>{product.colors?.length||0} colours</span></div>
  </motion.article>;
 }
