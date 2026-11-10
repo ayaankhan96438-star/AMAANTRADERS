@@ -23,6 +23,7 @@ import './styles/index.css';
 import './styles/responsive-polish.css';
 import './styles/forest-sand-stage-a.css';
 import './styles/forest-sand-stage-b.css';
+import './styles/homepage-media-fix.css';
 
 function ScrollToTopOnPathChange() {
   const { pathname } = useLocation();

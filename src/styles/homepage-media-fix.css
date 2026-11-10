@@ -1,0 +1,158 @@
+/* AMAANTRADER — Homepage image reliability + mobile art direction */
+
+/* All BlurImage frames have a stable paint area while an image is loading. */
+.blur-image-frame {
+  display: block;
+  min-width: 0;
+  min-height: 0;
+  background: var(--surface);
+}
+.blur-image-fallback-art {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  background: linear-gradient(145deg, var(--surface), var(--bg));
+  color: var(--forest);
+  text-align: center;
+}
+.blur-image-fallback-art strong {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border: 1px solid var(--rust);
+  border-radius: 50%;
+  color: var(--rust);
+  font: 500 24px/1 var(--serif);
+}
+.blur-image-fallback-art small {
+  color: var(--ink-muted);
+  font: 700 10px/1.3 var(--sans);
+  letter-spacing: .16em;
+}
+
+/* The source photos are product references with mixed aspect ratios. Keep the
+   desktop crop as designed; on touch screens show the entire jacket instead. */
+.journal-image-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 270px;
+  background: var(--surface);
+}
+.journal-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 800px) {
+  /* Product cards: preserve the full garment inside the 4:5 catalogue frame. */
+  .product-card-media {
+    aspect-ratio: 4 / 5;
+    background: var(--surface);
+  }
+  .product-card-image-frame,
+  .product-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+  }
+  .product-card-photo {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    object-fit: contain !important;
+    object-position: center;
+    background: var(--surface);
+  }
+
+  /* The Outerwear Study image used to be enlarged beyond its frame and cropped. */
+  .at-jacket-showcase-media {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+    background: var(--surface);
+  }
+  .at-jacket-showcase-media .at-showcase-image-frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .at-jacket-showcase-media .at-showcase-photo {
+    inset: 0 !important;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    object-fit: contain !important;
+    object-position: center;
+    background: var(--surface);
+  }
+
+  /* Category and lookbook photos no longer lose half the jacket on narrow tiles. */
+  .intro-section .category-grid .category-image {
+    padding: 6px;
+    object-fit: contain !important;
+    object-position: center;
+    background: var(--surface);
+  }
+  .manifesto-image {
+    object-fit: contain !important;
+    object-position: center;
+    background: var(--surface);
+  }
+  .lookbook-mosaic-image {
+    padding: 6px;
+    object-fit: contain !important;
+    object-position: center;
+    background: var(--surface);
+  }
+  .journal-image-frame {
+    min-height: 160px;
+  }
+  .journal-image {
+    object-fit: contain;
+    object-position: center;
+    background: var(--surface);
+  }
+}
+
+/* A legible, wrap-safe announcement instead of a clipped single-line banner. */
+@media (max-width: 560px) {
+  .topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto !important;
+    min-height: 33px;
+    padding: 6px 12px;
+    font-size: clamp(9px, 2.65vw, 10px) !important;
+    line-height: 1.25;
+    letter-spacing: .045em !important;
+    text-align: center;
+    white-space: normal;
+  }
+  .topline > span:first-child {
+    display: block;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+  .topline-right { display: none !important; }
+}
+
+@media (max-width: 360px) {
+  .topline { font-size: 9px !important; letter-spacing: .035em !important; }
+  .product-card-photo { padding: 5px; }
+  .at-jacket-showcase-media .at-showcase-photo { padding: 6px; }
+}
